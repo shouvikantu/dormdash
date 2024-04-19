@@ -7,6 +7,7 @@ import { auth, db } from '../../firebase.config';
 import Navbar from '@/components/Navbar';
 import DormDash from '@/public/assets/dormdash.png';
 import { useAuth } from '@/hooks/useAuth';
+import Link from 'next/link';
 
 export default function Page() {
     const { user, loading } = useAuth();
@@ -65,12 +66,12 @@ export default function Page() {
                         The easiest way to buy and sell food on campus.
                     </p>
                     <div className="mt-10 flex justify-center gap-4">
-                        <a href="/buy" className="rounded-md bg-indigo-600 px-5 py-3 text-base font-semibold text-white shadow hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                        <Link href="/buy" className="rounded-md bg-indigo-600 px-5 py-3 text-base font-semibold text-white shadow hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                             Explore Now
-                        </a>
-                        <a href="/about" className="rounded-md border border-gray-300 px-5 py-3 text-base font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                        </Link>
+                        <Link href="/about" className="rounded-md border border-gray-300 px-5 py-3 text-base font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                             Learn More
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
