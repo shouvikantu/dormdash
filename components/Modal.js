@@ -5,7 +5,6 @@ import { useAuth } from '@/hooks/useAuth';
 import { useRouter } from 'next/router';
 
 function Modal({ product, onClose }) {
-  console.log(product);
   const { user } = useAuth();
   const router = useRouter();
 
@@ -62,7 +61,6 @@ function Modal({ product, onClose }) {
       });
   
       const responseData = await emailResponse.json();
-      console.log(responseData);
       router.push('/thank-you'); // Redirect to thank-you page
     } catch (error) {
       console.error('Error:', error);

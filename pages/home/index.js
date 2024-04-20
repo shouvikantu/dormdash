@@ -45,7 +45,6 @@ export default function Page() {
 
     return (
         <div className="relative isolate px-6 lg:px-8">
-            <Navbar />
             <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center">
                 <div className="mx-auto w-1/2 sm:w-1/3 lg:w-1/4">
                     <Image
