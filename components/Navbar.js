@@ -35,7 +35,7 @@ export default function Navbar() {
     { name: 'Home', href: '/home' },
     { name: 'Buy Food', href: '/buy' },
     { name: 'About Us', href: '/about' },
-    { name: 'How it Works', href: '#' },
+    { name: 'How it Works', href: 'howitworks' },
 
   ];
   
