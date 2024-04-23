@@ -15,7 +15,7 @@ const features = [
   },
   {
     name: 'Buyers',
-    description: 'will also create accounts, with the option to also sign up as a seller. Buyers will go to "buy food" and from there will be able to purchase food that is currently posted. Buyers will receive a confirmation email when their order has gone through and be able to message the seller for pick-up.',
+    description: 'will also create accounts, with the option to also sign up as a seller. Buyers will go to "buy food" and from there will be able to purchase food that is currently posted.  Buyers will receive a confirmation email when their order has gone through and be able to message the seller for pick-up through school email google chat.',
     icon: LockClosedIcon,
   },
   {
@@ -35,7 +35,7 @@ export default function HowItWorks() {
               <h2 className="text-base font-semibold leading-7 text-indigo-600">How it Works</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">WU DORMDASH</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              Sellers will sign up as a seller when creating an account, and then post the food they are selling through the seller dashboard at the top of the page. Once the food is live, sellers can receive orders from buyers. Sellers will receive a confirmation email when an order has been placed and be able to message the buyer for pick-up. Sellers can stop receiving orders at any time by deleting their post.
+              Sellers will sign up as a seller when creating an account, and then post the food they are selling through the seller dashboard at the top of the page. Once the food is live, sellers can receive orders from buyers. Sellers will receive a confirmation email when an order has been placed and will message the buyer for pick-up via school email google chat. Sellers can stop receiving orders at any time by deleting their post.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
