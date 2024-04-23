@@ -8,22 +8,6 @@ function Modal({ product, onClose }) {
   const { user } = useAuth();
   const router = useRouter();
 
-  // const addOrderToFirestore = async (orderDetails) => {
-  //   const orderRef = collection(db, `users/${product.sellerId}/Foods/${product.id}/orders`);
-  //   await setDoc(doc(orderRef), orderDetails);
-  // };
-
-  // const sendOrderConfirmationEmail = async (orderDetails) => {
-  //   const response = await fetch('/api/sendEmail', {
-  //     method: 'POST',
-  //     headers: {
-  //       'Content-Type': 'application/json',
-  //     },
-  //     body: JSON.stringify(orderDetails),
-  //   });
-  //   return response.json();
-  // };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
   
