@@ -14,8 +14,7 @@ export default function Page() {
         <figure className="mt-10">
           <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
             <p>
-            DormDash is an online food marketplace exclusively for Willamette University students. Our mission is to provide convenient, affordable, and delicious food options. Whether you&apos;re looking for a quick bite or a full meal, we&apos;ve got you covered. Our vendors offer a variety of options to satisfy your cravings.
-
+            DormDash is an online food marketplace exclusively for Willamette University students. Our mission is to provide convenient, affordable, and delicious food options. We allow students to sell food to other students, increasing access to food on campus. Whether you&apos;re looking for a quick bite or a full meal, we&apos;ve got you covered.
             </p>
           </blockquote>
         </figure>
