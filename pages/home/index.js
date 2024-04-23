@@ -68,7 +68,7 @@ export default function Page() {
                         <Link href="/buy" className="rounded-md bg-indigo-600 px-5 py-3 text-base font-semibold text-white shadow hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                             Explore Now
                         </Link>
-                        <Link href="/about" className="rounded-md border border-gray-300 px-5 py-3 text-base font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                        <Link href="/howitworks" className="rounded-md border border-gray-300 px-5 py-3 text-base font-semibold text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                             Learn More
                         </Link>
                     </div>
